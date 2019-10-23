@@ -13,10 +13,11 @@ To make it work do the following:
  c. Upgraded google-api-python-client (win10: python -m pip install --upgrade google-api-python-client --user)
  d. oauth2client (win10: python -m pip install oauth2client --user)
 
-Execution: Copy any files you need to convert in the same folder. Filetypes supported: pdf, jpg, png, gif, bmp, doc
+Execution: Copy any files you need to convert in the same folder with the script and type "python ocr.py". 
+-> Filetypes supported: pdf, jpg, png, gif, bmp, doc
 
-python ocr.py
-On first run it will open your browser to verify permisions. If you see "This app isn't verified" ... click on Advanced and (IF YOU TRUST ME) click on Go to Quickstart (unsafe). Then click Allow and Allow. You can close the browser tab. The execution begins.
+
+-> On first run it will open your browser to verify permisions. If you see "This app isn't verified" ... click on Advanced and (IF YOU TRUST ME) click on Go to Quickstart (unsafe). Then click Allow and Allow. You can close the browser tab. The execution begins.
 
 The script will list the supported files, upload each one to Google Drive and export/download the text version of them.
 
